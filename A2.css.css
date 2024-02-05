@@ -1,0 +1,17 @@
+h1 {
+    background-color: orangered;
+    text-align: center;
+}
+.contact {
+    background-color: green;
+    color : white;
+    text-align: right;
+}
+
+header {
+    text-align: center;
+}
+
+article{
+    text-align: center;
+}
