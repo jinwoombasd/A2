@@ -1,0 +1,84 @@
+/*
+Author: Jinwoo Park
+Contact: jinwoo.park@my.uwrf.edu
+Date: 2023-09-29
+Modified: 2023-10-02
+Description: 
+Murfreesboro Regional Soccer League Getting Started web Page.
+*/
+
+body,div,h1,p{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ aside {
+    background-color: lightgreen;
+    border: 0px;
+    margin: 0px;
+    padding: 2%;
+    width: 35%;
+    float: left;
+    color : black;
+ }
+
+ aside h2{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0.4em;
+ }
+ 
+ aside p{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+ }
+ 
+ aside .description {
+    margin-left: 1em;
+ }
+
+ article {
+    border: 0px;
+    margin: 0px;
+    padding: 3%;
+    width: 55%;
+    float: right;   
+    background-color: white;
+    color : black;
+ }
+ 
+ header {
+    text-align: center;
+    color: white;
+    background-color: green;
+    border: 0px;
+    margin: 0px;
+    padding: 0.5em;
+ }
+
+ footer {
+    clear: both;
+    color: white;
+    background-color: black;
+    text-align: right;
+    border: 0px;
+    margin: 0px;
+    padding: 0.5em;
+ }
+
+ .container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;    
+ }
+ 
+
+ 
+
+
+
+
+
