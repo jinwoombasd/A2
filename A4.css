@@ -1,0 +1,162 @@
+/*
+Author: Jinwoo Park
+Contact: jinwoo.park@my.uwrf.edu
+Date: 2023-10-04
+Modified: 2023-10-09
+Description: 
+Murfreesboro Regional Soccer League Getting Started web Page.
+*/
+
+body,div,h1,p{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+ }
+
+ aside {
+    background-color: #c8f098;
+    border: 0px;
+    margin: 0px;
+    padding: 2%;
+    width: 35%;
+    float: right;
+    color : black;
+ }
+
+ aside h2{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    margin-bottom: 0.4em;
+    font-family: "Georgia", "Times New Roman", "Times", serif;
+    font-size: 1.6em;
+ }
+
+ aside p.accent{
+   font-weight: bold;
+ }
+ 
+ aside p{
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+ }
+ 
+ aside .description {
+    margin-left: 1em;
+ }
+
+ aside .date{
+   font-weight: bold;
+ }
+
+ article {
+    border: 0px;
+    margin: 0px;
+    padding: 3%;
+    width: 50%;
+    float: left;   
+    background-color: white;
+    color : black;
+ }
+
+ article p.firstparagraph::first-line {
+   font-weight: bold;
+ }
+
+ article p.firstparagraph {
+    margin-bottom: 20px;
+ }
+
+ 
+ header {
+    text-align: center;
+    background-color: rgb(140, 198, 63);
+    border: 0px;
+    margin: 0px;
+    padding: 0.5em;
+ }
+
+ footer {
+    clear: both;
+    color: white;
+    background-color: black;
+    text-align: right;
+    border: 0px;
+    margin: 0px;
+    padding: 0.5em;
+ }
+ 
+ footer p.accent{
+   font-weight: bold;
+ }
+
+ .container{
+    max-width: 640px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid black;    
+ }
+
+ html {
+   font-size: 14px;
+ }
+ 
+ body {
+   font-family: "Arial", "Helvetica", sans-selif;
+ }
+
+ p {
+   font-size: 1.2em
+ }
+
+ header h1 {
+   font-size: 2em;
+   line-height: 1.4em;
+   font-family: "Georgia", "Times New Roman", "Times", serif;
+   text-shadow: 0 0 10px ivory;
+ }
+
+ header p {
+   font-style: italic;
+ }
+
+@media print{
+   aside, body, footer, header, .container{
+      color:#000;
+      background-color: #fff;
+      border:0;
+   }
+   body{
+      max-width: 100%;
+   }
+   header{
+      border-bottom: 2px solid black;
+   }
+   header p{
+      font-style: italic;
+   }
+   aside{
+      border-left: 2px solid black;
+   }
+   footer{
+      border-top: 2px solid black;
+   }
+   footer p.accent{
+      font-weight: bold;
+   }
+   body{
+      margin: 1cm;
+   }
+   articlc p.firstparagraph::first-line{
+      font-weight: bold;
+   }
+   article p.firstparagraph{
+      margin-bottom: 20px; 
+   }
+}
+ 
+
+
+
+
+
